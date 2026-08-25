@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Prompt', sans-serif;
+}
+
+body {
+    background-color: #e8f5e9;
+    color: #2e4d40;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    gap: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+form {
+    background: #ffffff;
+    padding: 32px 28px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(46, 77, 64, 0.06);
+    width: 300px;
+    border: 1px solid #d4ece1;
+}
+
+label {
+    font-size: 14px;
+    color: #4a7061;
+    font-weight: 500;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px 12px;
+    margin: 6px 0 16px 0;
+    border: 1px solid #c2e2d3;
+    border-radius: 6px;
+    outline: none;
+    background-color: #fafdfb;
+    color: #2e4d40;
+    transition: all 0.2s ease;
+}
+
+input[type="text"]:focus {
+    border-color: #52ab87;
+    box-shadow: 0 0 0 3px rgba(82, 171, 135, 0.15);
+    background-color: #ffffff;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #52ab87;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+button:hover {
+    background: #3f9472;
+}
+
+a {
+    color: #2e4d40;
+    text-decoration: none;
+    font-size: 14px;
+    border: 1px solid #c2e2d3;
+    padding: 8px 20px;
+    border-radius: 6px;
+    background: #ffffff;
+    transition: all 0.2s ease;
+    box-shadow: 0 2px 8px rgba(46, 77, 64, 0.04);
+}
+
+a:hover {
+    background: #52ab87;
+    color: #ffffff;
+    border-color: #52ab87;
+}
